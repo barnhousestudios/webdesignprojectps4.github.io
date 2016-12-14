@@ -13,24 +13,18 @@
 	padding-left:780;
 }
 .mediatext {
-	padding-left:830;
-	padding-top:40;
+	padding-top:10;
+	padding-left:41%;
 }
 .mediaimage1 {
 	padding-top:20;
-	padding-left:320;
-	height:350px;
-}
-.mediaimage2 {
-	padding-top:20;
-	padding-right:150;
-	height:350px;
+	padding-left:12%;
+	height:30%;
 }
 .mediaimage3 {
 	padding-top:35;
-	padding-left:710;
-	padding-right:450;
-	height:350px;
+	padding-left:30%;
+	height:35%;
 }
 .seasonstext {
     color:white;
