@@ -77,21 +77,21 @@
     padding-left:300;
     font-size:40;
     color:white;
-	text-decoration:underline;
+    text-decoration:underline;
     font-family:Verdana,sans-serif;
 }
 .coverimg {
-    width:1887px;
+    width:100%;
     height:974px;
 }
 .bluebackground {
     background-image:url('bluebackground.png');
-    width:1887px;
+    width:100%;
     height:974px;
 }
 .bluebackground2 {
     background-image:url('bluebackground.png');
-    width:1887px;
+    width:100%;
     height:300px;
 }
 .characterpage1 {
