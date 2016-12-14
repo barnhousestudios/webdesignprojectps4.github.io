@@ -86,12 +86,12 @@
 }
 .bluebackground {
     background-image:url('bluebackground.png');
-    width:100%;
+    width:90%;margin:auto;min-width:600px;max-width:2000px;
     height:974px;
 }
 .bluebackground2 {
     background-image:url('bluebackground.png');
-    width:100%;
+    width:90%;margin:auto;min-width:600px;max-width:2000px;
     height:300px;
 }
 .characterpage1 {
