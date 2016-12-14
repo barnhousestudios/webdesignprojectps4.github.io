@@ -1,0 +1,160 @@
+.seasonspage {
+	padding-top:40;
+}
+.contacttext {
+	padding-top:40;
+	padding-left:775;
+}
+.italics {
+	font-style:italic;
+}
+.chartext {
+	padding-top:30;
+	padding-left:780;
+}
+.mediatext {
+	padding-left:830;
+	padding-top:40;
+}
+.mediaimage1 {
+	padding-top:20;
+	padding-left:320;
+	height:350px;
+}
+.mediaimage2 {
+	padding-top:20;
+	padding-right:150;
+	height:350px;
+}
+.mediaimage3 {
+	padding-top:35;
+	padding-left:710;
+	padding-right:450;
+	height:350px;
+}
+.seasonstext {
+    color:white;
+    padding-top:50;
+    padding-left:40;
+    padding-right:40;
+    font-family:Verdana,sans-serif;
+    font-size:30;
+}
+.originstext {
+    color:white;
+    padding-top:50;
+    padding-left:50;
+    padding-right:50;
+    font-family:Verdana,sans-serif;
+    font-size:30;
+	text-align:justify;
+}
+.video {
+	padding-left:700;
+	padding-top:30;
+}
+.bold {
+    font-weight:bold;
+}
+.hunterpage {
+    padding-top:50;
+    padding-left:680;
+	height:350px;
+}
+.charpagetext {
+    text-align:justify;
+    padding-right:300;
+    padding-left:300;
+    font-size:40;
+    color:white;
+    padding-top:5;
+    font-family:Verdana,sans-serif;
+}
+.charpagetextlol {
+    text-align:justify;
+    padding-right:300;
+    font-size:40;
+    color:white;
+    padding-top:40;
+    font-family:Verdana,sans-serif;
+}
+.seasonspage {
+    text-align:justify;
+    padding-left:300;
+    font-size:40;
+    color:white;
+	text-decoration:underline;
+    font-family:Verdana,sans-serif;
+}
+.coverimg {
+    width:1887px;
+    height:974px;
+}
+.bluebackground {
+    background-image:url('http://www.sumopaint.com/images/temp/xzreifltkxlapqhh.png');
+    width:1887px;
+    height:974px;
+}
+.bluebackground2 {
+    background-image:url('http://www.sumopaint.com/images/temp/xzreifltkxlapqhh.png');
+    width:1887px;
+    height:300px;
+}
+.characterpage1 {
+    padding-top:30;
+    padding-bottom:100;
+    padding-left:620;
+}
+.characterpage2 {
+    padding-top:0;
+    padding-left:620;
+    height:480;
+    width:640;
+}
+h2 {
+	color:white;
+	text-decoration:underline;
+	font-weight:20;
+	text-align:center;
+	font-size:60;
+	font-family:Verdana,sans-serif;
+}
+h1 {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding: 10;
+    background-color: #333;
+    font-family:Verdana,sans-serif;
+    font-size:40;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align:center;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    font-size:24;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-family:Verdana,sans-serif;
+}
+/* Start http://www.cursors-4u.com */ body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-11/cur1055.ani), url(http://cur.cursors-4u.net/cursors/cur-11/cur1055.png), progress !important;} /* End http://www.cursors-4u.com */
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+body {
+	background-color: black;
+}
