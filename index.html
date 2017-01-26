@@ -9,30 +9,42 @@
 <body>
 <title>Barnhouse Studios</title>
 
-<div class="toolbar2">
+
 	<div class="toolbar">
 		<h1>Barnhouse Studios</h1>
 	</div>
 
 	<div>
-	  <ul>
-		<li><a href="index.html">Home</a></li>
+	  <ul class="topnav" id="myTopnav">
+		<li><a class="active" href="index.html">Home</a></li>
 		<li><a href="movies.html">Movies</a></li>
 		<li><a href="television.html">Television</a></li>
 		<li><a href="comingsoon.html">Coming Soon</a></li>
 		<li><a href="production.html">Production Team</a></li>
 		<li><a href="contact.html">Contact</a></li>
+		    <li class="icon">
+    			<a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  		    </li>
 	  </ul>
 	</div>
-</div>
 
 <div class="wrapper">
 	<button class="button" type="button" onclick="removeDummy();">About</button>
 </div>
 
 <div class="wrapper">
-	<img class="coverimg" id="coverimg" src="logo.JPG"></img>
+	<img class="coverimg" id="coverimg" src="logo.JPG" />
 </div>
 
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
 </body>
 </html>
