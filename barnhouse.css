@@ -37,20 +37,6 @@ li a:hover:not(.active) {
     background-color: #4CAF50;
 }
 
-
-.toolbar2 {
-	background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaMrZnTq0CSU1Y2FhdXW3MtxQeP40208C6a6QcxtvT0ZyhPVSG');
-}
-
-.toolbar {
-    color: white;
-    text-decoration: none;
-    margin: 0;
-    padding-top:3;
-    padding-left:10;
-    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Goergia, serif;
-    font-size:140%;
-}
 .coverimg {
 	padding-top: 7%;
 }
