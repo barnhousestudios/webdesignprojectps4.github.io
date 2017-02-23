@@ -27,10 +27,12 @@ li a {
 }
 li a:hover {
     background-color: #111;
+    color:white;
 }
 
 li a:hover:not(.active) {
     background-color: #111;
+    color:white;
 }
 
 .active {
@@ -52,7 +54,7 @@ li a:hover:not(.active) {
     font-size:140%;
 }
 .button {
-    top:30%;
+    top:50%;
     right:50%;
 }
 .image {
