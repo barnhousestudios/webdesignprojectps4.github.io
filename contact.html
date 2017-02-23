@@ -18,7 +18,10 @@
 		<li><a href="television.html">Television</a></li>
 		<li><a href="comingsoon.html">Coming Soon</a></li>
 		<li><a href="production.html">Production Team</a></li>
-		<li><a href="contact.html">Contact</a></li>
+		<li><a class="active" href="contact.html">Contact</a></li>
+		   <li class="icon">
+    			<a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  		    </li>
 	  </ul>
 	</div>
 </div>
@@ -33,6 +36,15 @@
 		<input type="submit" value="Send">
 		<input type="reset" value="Reset">
 </form>
-
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
 </body>
 </html>
