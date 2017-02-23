@@ -15,18 +15,32 @@
 	  <ul>
 		<li><a href="index.html">Home</a></li>
 		<li><a href="movies.html">Movies</a></li>
-		<li><a href="television.html">Television</a></li>
+		<li><a class="active" href="television.html">Television</a></li>
 		<li><a href="comingsoon.html">Coming Soon</a></li>
 		<li><a href="production.html">Production Team</a></li>
 		<li><a href="contact.html">Contact</a></li>
+		  <li class="icon">
+    		    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  		</li>
 	  </ul>
 	</div>
 </div>
 
 <div>
 <h2 class="header">Shenanigans</h2>
-<p class="text">Taje, spejo, terasaki. It sounds like nonsense, but in Shenanigans, this is just common talk. Shenanigans is a show of humor and friendship. The protagonists, Robbie and Hunter, get into “shenanigans” on a frequent basis. Neither of them are geniuses, or talented, or attractive, but the way they live is just plain fun. They speak with weird words, they play weird games, and eat weird food. It’s like they don’t notice the world around them, but the world definitely notices them. The show is somewhat similar to Beavis and Butthead and South Park, but it is unique in its own sense. It'll have you spe-ing some sick Nene.</p><img class="image" src="shen.png"></img>
+<p class="text">Taje, spejo, terasaki. It sounds like nonsense, but in Shenanigans, this is just common talk. Shenanigans is a show of humor and friendship. The protagonists, Robbie and Hunter, get into “shenanigans” on a frequent basis. Neither of them are geniuses, or talented, or attractive, but the way they live is just plain fun. They speak with weird words, they play weird games, and eat weird food. It’s like they don’t notice the world around them, but the world definitely notices them. The show is somewhat similar to Beavis and Butthead and South Park, but it is unique in its own sense. It'll have you spe-ing some sick Nene.</p><img class="image" src="shen.png" />
 </div>
 
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
 </body>
 </html>
