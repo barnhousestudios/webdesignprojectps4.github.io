@@ -7,5 +7,5 @@ function slideshow() {
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}    
     x[myIndex-1].style.display = "block";  
-    setTimeout(slideshow, 3500); // Change image every 2 seconds
+    setTimeout(slideshow, 5000); // Change image every 2 seconds
 }
